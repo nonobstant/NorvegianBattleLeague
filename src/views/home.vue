@@ -1,40 +1,20 @@
 <template>
-    <div class="m-6" v-for="(link, index) in links" :key="index">
-      <a class=" px-2 py-1  text-black font-bold text-2xl cursor-crosshair hover:text-white hover:bg-black dark:text-white dark:hover:text-black dark:hover:bg-white" :href="link.url">{{ link.text }} </a>
+  <div>
+    <p class="text-lg font-sans font-semibold text-gray-800 dark:text-gray-200">Welcome to the first Danish tournament !</p>
+
+    <div class="uppercase max-w-2xl mx-auto mt-5 font-bold text-red-400 ">
+      <a class="mx-2 hover:animate-pulse" href="">scoreboard</a>
+      <a class="mx-2 hover:animate-pulse" href="">rules</a>
+      <a class="mx-2 hover:animate-pulse" href="">matchs</a>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      links : [
-        {
-          text : "LUX MINIMA",
-          url : "https://luxminima.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "PRISM FLOWER",
-          url : "https://prismflower.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "ATELIER404",
-          url : "https://atelier404.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "TWITTER",
-          url : "#",
-          img : "./assets/"
-        },
-        {
-          text : "INSTAGRAM",
-          url : "#",
-          img : "./assets/"
-        },
-      ]
+      
     }
   },
   methods : {
