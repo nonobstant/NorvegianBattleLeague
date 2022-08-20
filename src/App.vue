@@ -10,8 +10,19 @@
     <span v-else  @click="themeLight" class="text-3xl inline cursor-crosshair px-2 animate-bounce hover:text-red-400 rounded-full">♦</span>
     <img class="mx-auto h-24 mt-7 mb-4 hover:animate-pulse" alt="Vue logo" src="./assets/danish.png" />
     <h1 class="text-3xl font-semibold font-serif" ><span class="text-teal-700">Norvegian Battle League</span></h1>
+    <div class="p-2">
+      <div class="border-t-4 border-red-400 p-4 max-w-2xl mx-auto mt-6 border-dashed">
+        <p class="text-lg font-sans font-semibold text-gray-800 dark:text-gray-200">Welcome to the first Danish tournament !</p>
+
+        <div class="uppercase max-w-2xl mx-auto mt-5 font-bold text-red-400 ">
+          <a class="mx-2 hover:animate-pulse" href="">scoreboard</a> ▪
+          <a class="mx-2 hover:animate-pulse" href="">rules</a> ▪
+          <a class="mx-2 hover:animate-pulse" href="">matchs</a>
+        </div>
+      </div>
+      <router-view class=""></router-view>
+    </div>
     
-    <router-view class="border-4 border-red-400 p-4 max-w-2xl mx-auto mt-6 border-dashed"></router-view>
     <!-- <h1 class="mt-16">Made with ❤ by nonobstant</h1> -->
   </div>
   
