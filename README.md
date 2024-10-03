@@ -1,4 +1,4 @@
-### NOX template
+### NBL / Danish League
 v1 - 2022
 
 - [**Vite**](https://vitejs.dev/guide/) + [**Vuejs**](https://v3.vuejs.org/guide/introduction.html)
